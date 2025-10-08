@@ -1,0 +1,21 @@
+.texto {
+    background-color: rgb(223, 35, 35);
+}
+
+.cards {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+ 
+.card_texto{
+    display: flex;
+    background-color: rgb(158, 99, 84);
+
+}
+.card {
+    background-color: rgb(75, 182, 146);
+
+
+}
+
