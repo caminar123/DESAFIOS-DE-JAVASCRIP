@@ -35,3 +35,30 @@ let i1=prompt("indica el numero");
 let cuadradoresultado=parseInt(i1)*parseInt(i1);
 alert("El cuadrado de "+i1+" es "+cuadradoresultado);   
 
+
+//7
+let semana="domingo";
+let ingresa=prompt("ingresa un dia de la semana");
+if (semana==ingresa ){
+      alert("Buen finde de semana ");
+}  
+else{
+      alert("Buena semana ");
+}
+
+//8
+let num11=prompt("ingresa un numero");
+if (num11>0){
+      alert("El numero es positivo");
+
+}else if (num11<0){
+      alert("El numero es negativo");
+}
+
+//9
+let puntaje=prompt("ingresa tu puntaje");
+if (puntaje>=100 ){
+      alert("Felicidades, has ganado");}
+else{
+      alert("intenta nuevamente para ganar");
+}

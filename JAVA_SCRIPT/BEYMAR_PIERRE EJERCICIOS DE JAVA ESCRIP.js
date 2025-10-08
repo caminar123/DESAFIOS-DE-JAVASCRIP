@@ -1,5 +1,3 @@
-
-
  let numerosecreto=6;
  let numeros=prompt("indica el numero");
  if (numerosecreto==numeros){
@@ -34,4 +32,3 @@ alert("El mayor entre "+a1+" y "+a2+" es "+mayorresultado);
 let i1=prompt("indica el numero");
 let cuadradoresultado=parseInt(i1)*parseInt(i1);
 alert("El cuadrado de "+i1+" es "+cuadradoresultado);   
-
