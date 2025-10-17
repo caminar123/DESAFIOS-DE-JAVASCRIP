@@ -1,11 +1,3 @@
- let numerosecrpeto=6;
- let numeros=prompt("indica el numero");
- if (numerosecreto==numeros){
-    alert("Acertaste el numero secreto");
- } else{
-    alert("Fallaste, el numero secreto es ");
- }
-
 //3
 let i2= prompt("indica un numero");
 let doble=i2*2;
@@ -70,12 +62,10 @@ let numero=0;
       numero++;
  }
 
-
-
  //11
 let numerosecreto = 6;
 let numerousuario = 0;
-let intentosi = 0;
+let intentos = 0;
 const maxIntentos = 3;
 
 while (numerousuario !== numerosecreto && intentos < maxIntentos) {
@@ -110,44 +100,3 @@ while (contador >= 0) {
     }
     contador--; 
 }
-//3
-// formula para generar un numero aleatorio entre 1 y 10
-let n= Math.floor( Math.random()*10+1);
-alert(n);
-
-
-//13
-// formula para generar un numero aleatorio entre 1 y 10
-
-//14
-let numeroSecreto=Math.floor( Math.random()*100+1);;
-let numeroUsuario=0;
-let intentos=1;
-let nombre="vez";
-while(numeroUsuario!=numeroSecreto){
-
-    console.log(numeroSecreto);
-    numeroUsuario=prompt("Ingresa un numero");
-    
-    if (numeroSecreto==numeroUsuario){
-        alert(`Acertaste el numero es:${numeroSecreto} lo realizaste en ${intentos} ${nombre}`);}
-        else{
-        
-        if (numeroUsuario>numeroSecreto){
-            alert("El numero es menor");
-        }else{
-            alert("El numero es mayor");
-        }
-        intentos=intentos+1;
-        nombre="veces";
-        if (intentos>3){
-            alert("llegaste al numero maximo de intentos");
-            break;
-        }
-        }
-        
-   
-    
-    
-}
-
